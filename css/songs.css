@@ -1,1 +1,62 @@
-@import "/css/globals.css"
+@import "/css/globals.css";
+@import '/css/globals.css';
+@import '/css/style.css';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.songs-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    padding: 1rem 0rem 3rem 0rem;
+    font-size: 2.6rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.song{
+    width: 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.song h3{
+    margin-top: -0.25rem;
+    background-image: linear-gradient(45deg, black, #333);
+    color: white;
+    padding: 1rem 0rem;
+    width: 100%;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 15px 15px 0px 0px;
+}
+
+video{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+@media (max-width: 768px) {
+    .songs-wrapper{
+        flex-direction: column;
+    }
+
+    .song{
+        width: 95%;
+    }
+    
+}

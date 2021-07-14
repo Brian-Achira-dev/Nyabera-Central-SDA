@@ -29,6 +29,12 @@ header{
     list-style-type: none;
 }
 
+.header-links ul li a{
+    color: white
+}
+
+
+
 .header-links ul li{
     padding: 1rem;
     display: block;
@@ -37,6 +43,10 @@ header{
 
 .header-links ul li:hover{
     background-color: #222;
+    color: lightcoral;
+}
+
+.header-links ul li:hover a{
     color: lightcoral;
 }
 
@@ -106,7 +116,7 @@ header{
     border: none;
     color: tomato;
     border-bottom: 1px solid white;
-   
+
 }
 
 .hero .buttons{
@@ -126,7 +136,7 @@ header{
     margin: 2rem auto;
     padding: 2rem 0.5rem;
     border: 1px solid black;
-   
+
     box-shadow: 10px 10px 10px 1px rgb(121, 121, 121);
 }
 
@@ -187,7 +197,7 @@ ul{
     width: 40%;
     margin: 0 auto;
     margin-bottom: 1rem;
-    
+
 }
 
 .events-box li{
@@ -205,7 +215,7 @@ ul{
     width: 25%;
     height: 40rem;
     background-color: cornsilk;
-    
+
 }
 
 #verse2{
@@ -303,7 +313,7 @@ footer{
         flex-direction: column;
         width: 100%;
     }
-    
+
 
     .header-links.show{
         display: block;
@@ -323,7 +333,7 @@ footer{
     .right-bar{
         display: none;
     }
-    
+
 }
 
 /*https://images.unsplash.com/photo-1600738973956-729a6ae7324a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80*/
